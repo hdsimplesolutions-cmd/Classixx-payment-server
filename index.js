@@ -30,8 +30,8 @@ app.post("/create-checkout-session", async (req, res) => {
           quantity: 1,
         },
       ],
-success_url: "https://classixx-cutsproject.base44.app/BookingConfirmation",
-  cancel_url: "https://classixx-cutsproject.base44.app/PaymentCancelled",
+success_url: "https://classixx-cuts-project1.base44.app/BookingConfirmation",
+  cancel_url: "https://classixx-cuts-project2.base44.app/PaymentCancelled",
     });
 
     res.json({ url: session.url });
